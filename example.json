@@ -1,0 +1,11 @@
+{
+  "theme": {
+    "id": 1, 
+    "title": "metalneox-i3",
+    "git": "https://github.com/metalneox/dotfiles.git", 
+    "description": "Configuration i3wm ", 
+    "distro" : "Arch",
+    "package": ["i3-wm","i3-gaps","i3blocks","i3status","zsh","fish","zsh-theme-powerlevel9k","ttf-dejavu","curl","ranger","termite","rofi","otf-font-awesome","ttf-font-awesome","ttf-ubuntu-font-family","ttf-hack","gifsicle","dunst","feh","compton","scrot","zsh-autosuggestions","papirus-icon-theme","udiskie","mpv","neofetch","newsboat"],
+    "community": ["cava","polybar","shantz-xwinwrap-bzr","yay","mkinitcpio-openswap","ckbcomp"] 
+  }
+}
