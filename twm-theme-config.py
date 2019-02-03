@@ -46,14 +46,14 @@ def config(json):
             p3  = subprocess.Popen("sudo apt-get install -y "+community, shell=True)
             p3.wait()
 
- #        p4  = subprocess.Popen("rm -rf ~/.* ", shell=True)
- #        p4.wait()
- #
- #        p5  = subprocess.Popen("cp -rT /tmp/twm-theme-config-tmp ~/. ", shell=True)
- #        p5.wait()
- #
- #        p6  = subprocess.Popen("rm -rf /tmp/twm-theme-config-tmp", shell=True)
- #        p6.wait()
+        p4  = subprocess.Popen("rm -rf ~/.* ", shell=True)
+        p4.wait()
+
+        p5  = subprocess.Popen("cp -rT /tmp/twm-theme-config-tmp ~/. ", shell=True)
+        p5.wait()
+
+        p6  = subprocess.Popen("rm -rf /tmp/twm-theme-config-tmp", shell=True)
+        p6.wait()
 
 #List theme from restful api 
 def list():
