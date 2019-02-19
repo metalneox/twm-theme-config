@@ -12,5 +12,5 @@ python3 ./twm-theme-config --theme 1
 ```
 ### From Local
 ```
-python3 ./twm-theme-config --localjson example.json
+python3 ./twm-theme-config.py --localjson example.json
 ```
